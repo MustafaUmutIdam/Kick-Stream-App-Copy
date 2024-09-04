@@ -4,17 +4,17 @@
     <item
         android:id="@+id/mainPageFragment"
         android:icon="@drawable/b_nav_home"
-        android:title="home" />
+        android:title="Home" />
     <item
         android:id="@+id/otherPagesFragment"
         android:icon="@drawable/b_nav_browse"
-        android:title="browse" />
+        android:title="Browse" />
     <item
         android:id="@+id/otherPageFragment1"
         android:icon="@drawable/b_nav_following"
-        android:title="following" />
+        android:title="Following" />
     <item
         android:id="@+id/otherPagesFragment2"
         android:icon="@drawable/b_nav_search"
-        android:title="search" />
+        android:title="Search" />
 </menu>

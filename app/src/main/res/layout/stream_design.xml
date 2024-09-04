@@ -7,14 +7,14 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="294dp"
+        android:layout_width="285dp"
+        android:layout_height="265dp"
         android:layout_margin="5dp"
         android:backgroundTint="#000000">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="265dp">
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/chip2"
@@ -50,8 +50,8 @@
 
             <ImageView
                 android:id="@+id/imageViewStream"
-                android:layout_width="310dp"
-                android:layout_height="175dp"
+                android:layout_width="276dp"
+                android:layout_height="146dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"

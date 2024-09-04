@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVCategorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#000000"
+        app:cardBackgroundColor="@color/black"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginStart="2dp"
+                android:background="#2F2F2F"
+                android:backgroundTint="#2F2F2F"
+                android:text="IRL"
+                android:textColor="#7C7C7C"
+                android:textSize="10sp"
+                app:chipStrokeColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/chip1"
+                app:layout_constraintTop_toTopOf="@+id/chip1" />
+
+            <ImageView
+                android:id="@+id/imageViewCategorie"
+                android:layout_width="89dp"
+                android:layout_height="118dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/categories_image_1" />
+
+            <TextView
+                android:id="@+id/textViewCategorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="Just Chatting"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewCategorie" />
+
+            <TextView
+                android:id="@+id/textViewCategorieViewers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="8,15 B viewers "
+                android:textColor="#D5D5D5"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCategorie" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip1"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginStart="2dp"
+                android:background="#2F2F2F"
+                android:backgroundTint="#2F2F2F"
+                android:text="Casual"
+                android:textColor="#7C7C7C"
+                android:textSize="10sp"
+                app:chipStrokeColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCategorieViewers" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

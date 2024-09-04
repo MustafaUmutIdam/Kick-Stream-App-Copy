@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kickmainpagecopy.data.entity.Stream
-import com.example.kickmainpagecopy.databinding.DepartmentDesignBinding
 import com.example.kickmainpagecopy.databinding.StreamDesignBinding
 
 class StreamAdapter(var mContext : Context, var streamList: List<Stream>)
